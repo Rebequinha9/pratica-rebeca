@@ -9,7 +9,7 @@ export default function App() {
       <Box className='flex-1 justify-center items-center'>
 
         <Text className='text-3xl uppercase font-extrabold text-blue-600 mb-6'>
-          Meu Perfil
+          PEÇA O SEU!
         </Text>
 
         <Box className='bg-blue-100 rounded-xl p-6 w-96 h-40'>
@@ -23,11 +23,11 @@ export default function App() {
           </Text>
 
           <Text className='text-blue-900 text-lg font-bold mb-2'>
-            Seu Telefone
+            nosso telefone:
           </Text>
 
           <Text className='text-blue-800 text-sm'>
-            Digite seu telefone aqui.
+          18 55555-5555
           </Text>
 
         </Box>
