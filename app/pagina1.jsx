@@ -7,7 +7,7 @@ export default function App() {
   const router = useRouter();
   return (
 
-      <Box className='flex-1 justify-certer items-center'>
+      <Box className='flex-1 justify-center items-center'>
         <Text className='uppercase font-extrabold'> pagina um</Text>
       </Box>
 
