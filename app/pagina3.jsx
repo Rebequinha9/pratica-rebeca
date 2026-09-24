@@ -1,23 +1,16 @@
+import { Text } from 'react-native';
+import { useRouter } from 'expo-router';
+import { Box } from '@/components/ui/box';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { Button, ButtonText } from "@/components/ui/button"
-import { Divider } from '@/components/ui/divider';
 
 export default function App() {
+  const router = useRouter();
   return (
 
-    
-      <View style={styles.container}>
-        <Text className='uppercase font-extrabold'> pagina tres</Text>
-      </View>
+      <Box className='flex-1 justify-certer items-center'>
+        <Text className='uppercase font-extrabold'> meu perfil</Text>
+      </Box>
+
    
   );
 }
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

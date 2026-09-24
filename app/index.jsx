@@ -6,6 +6,7 @@ import { Link, Stack } from 'expo-router';
 
 
 export default function App() {
+   const router = useRouter();
   return (
 
     
